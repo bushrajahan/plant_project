@@ -6,7 +6,7 @@ To run the project:
 
 ```bash
 # Navigate to frontend folder
-cd frontend
+cd Frontend
 
 # Install dependencies
 npm install
@@ -28,4 +28,5 @@ frontend/
 │   │── App.jsx            # Main App entry
 │   │── main.jsx           # ReactDOM entry
 │── package.json
+
 
