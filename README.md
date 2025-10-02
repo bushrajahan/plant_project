@@ -8,4 +8,6 @@ cd frontend
 # Install dependencies
 npm install
 # Run Frontend
+npm run dev
+
 
