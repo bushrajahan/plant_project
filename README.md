@@ -14,7 +14,7 @@ npm install
 # Run the frontend
 npm run dev
 ## Frontend Folder Stucture
-frontend/
+Frontend/
 │── public/                # Static assets (favicon, logo, etc.)
 │── src/
 │   │── api/               # Axios/Fetch wrappers for API calls
@@ -28,5 +28,6 @@ frontend/
 │   │── App.jsx            # Main App entry
 │   │── main.jsx           # ReactDOM entry
 │── package.json
+
 
 
