@@ -10,7 +10,7 @@ function Services() {
       { label: 'Home', path: '/' },
       { label: 'Catalog', path: '/category' },
       { label: 'shop', path: '/shop' },
-      { label: 'contact', path: '/contact' },
+      { label: 'service', path: '/services' },
     
     ]}
   />
