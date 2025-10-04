@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Natural Plants",
+    "discountText": "Up to 50% Off",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/1.webp", 
+    "imageAlt": "A lush natural plant in a white pot",
+    "bgColorClass": "bg-[#e2e7df]",
+    "linkHref": "#natural-plants"
+  },
+  {
+    "id": 2,
+    "title": "Shop Gifts",
+    "discountText": "Up to 50% Off",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/6.webp", 
+    "imageAlt": "A beautifully wrapped gift with leaves",
+    "bgColorClass": "bg-[#e2e7df]",
+    "linkHref": "#shop-gifts"
+  },
+  {
+    "id": 3,
+    "title": "Garden Care",
+    "discountText": "Up to 50% Off",
+    "buttonText": "ORDER NOW",
+    "imageUrl": "/9.webp", 
+    "imageAlt": "Gardening tools and flowers",
+    "bgColorClass": "bg-[#dbe0cf]",
+    "linkHref": "#garden-care"
+  },
+  {
+    "id": 4,
+    "title": "Garden Accessories",
+    "discountText": "Up to 50% Off",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/8.webp", 
+    "imageAlt": "Terra cotta pots and gardening gloves",
+    "bgColorClass": "bg-[#f5f1e1]",
+    "linkHref": "#garden-accessories"
+  }
+]

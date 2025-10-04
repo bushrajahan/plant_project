@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Snake Plant", "price": 195, "image": "/1.webp", "isSale": true, "rating": 4 },
+  { "id": 2, "name": "Peace Lily Plant", "price": 180, "image": "/5.webp", "isSale": false, "rating": 5 },
+  { "id": 3, "name": "Plastic Pot", "price": 25, "image": "/8.webp", "isSale": true, "rating": 3 },
+  { "id": 4, "name": "Aglonema Plant", "price": 210, "image": "/9.webp", "isSale": false, "rating": 4 },
+  { "id": 5, "name": "Snake Plant", "price": 195, "image": "/1.webp", "isSale": true, "rating": 4 },
+  { "id": 6, "name": "Peace Lily Plant", "price": 180, "image": "/5.webp", "isSale": false, "rating": 5 },
+  { "id": 7, "name": "Plastic Pot", "price": 25, "image": "/8.webp", "isSale": true, "rating": 3 },
+  { "id": 8, "name": "Aglonema Plant", "price": 210, "image": "/9.webp", "isSale": false, "rating": 4 },
+  { "id": 9, "name": "Snake Plant", "price": 195, "image": "/1.webp", "isSale": true, "rating": 4 },
+  { "id": 10, "name": "Peace Lily Plant", "price": 180, "image": "/5.webp", "isSale": false, "rating": 5 },
+  { "id": 11, "name": "Plastic Pot", "price": 25, "image": "/8.webp", "isSale": true, "rating": 3 },
+  { "id": 12, "name": "Aglonema Plant", "price": 210, "image": "/9.webp", "isSale": false, "rating": 4 }
+]
