@@ -1,0 +1,51 @@
+[
+  {
+    "id": "PL001",
+    "name": "Peace Lily Plant",
+    "price": 195.00,
+    "is_on_sale": true,
+    "sale_price": null,
+    "image_url": "/1.webp",
+    "category": "House Plants",
+    "size_options": ["S", "M", "L"],
+    "color": "Green",
+    "rating": 4.5
+  },
+  {
+    "id": "PT002",
+    "name": "Plastic Pot",
+    "price": 20.00,
+    "is_on_sale": true,
+    "sale_price": null,
+    "image_url": "5.webp",
+    "category": "Potter Plants",
+    "size_options": [],
+    "color_options": ["Mint Green", "White", "Purple", "Black"],
+    "rating": 3.0
+  },
+  {
+    "id": "PL003",
+    "name": "Aglaonema Plant",
+    "price": 195.00,
+    "is_on_sale": true,
+    "sale_price": null,
+    "image_url": "path/to/aglaonema.png",
+    "category": "House Plants",
+    "size_options": ["M"],
+    "color": "Red",
+    "rating": 5.0
+  },
+  {
+    "id": "PL004",
+    "name": "Jade Plant Mini",
+    "price": 195.00,
+    "is_on_sale": true,
+    "sale_price": null,
+    "image_url": "path/to/jade_plant.png",
+    "category": "Small Plants",
+    "size_options": ["S"],
+    "color": "Grey",
+    "rating": 4.0
+  }
+
+]

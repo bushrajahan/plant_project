@@ -1,30 +1,31 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Importing pages
 import Home from "./pages/Home";
-import Navbar from "./components/Navbar/Navbar";
-import services from "./pages/services";
-import Contact from "./pages/contact";
-import Services from "./pages/services";
-
-
 import Category from "./pages/Category";
 import Shop from "./pages/Shop";
+import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Login from "./pages/Login";
+
+// Importing components
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <Router>   {/* Everything must be inside Router */}
+    <Router>
+      {/* Navbar always visible */}
       <Navbar />
 
+      {/* Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
-         <Route path="/about" element={<About/>} />
-        <Route path="/category" element={<Category></Category>} />
-        <Route path="/shop" element={<Shop></Shop> }/>
-        <Route path="/service" element={<Services/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-
-
+        <Route path="/category" element={<Category />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );

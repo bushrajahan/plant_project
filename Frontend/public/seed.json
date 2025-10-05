@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+  
+    "type": "nutritional",
+    "items": [
+      { 
+        "name": "Carrot", 
+        "emoji": "🥕", 
+        "note": "High in Vitamin A" 
+      }
+    ]
+  },
+  {
+    "id": "2",
+   
+    "type": "nutritional",
+    "items": [
+      { 
+        "name": "Spinach", 
+        "emoji": "🥬", 
+        "note": "Great for Heart " 
+      }
+    ]
+  },
+  {
+    "id": "3",
+ 
+    "type": "nutritional",
+    "items": [
+      { 
+        "name": "Corn", 
+        "emoji": "🌽", 
+        "note": "Rich in Fiber" 
+      }
+    ]
+  },
+  {
+    "id": "4",
+
+    "type": "nutritional",
+    "items": [
+      { 
+        "name": "Broccoli", 
+        "emoji": "🥦", 
+        "note": "Vitamin C Boost" 
+      }
+    ]
+  }
+]

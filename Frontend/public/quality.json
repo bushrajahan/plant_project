@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+  
+    "type": "nutritional",
+    "items": [
+      { 
+      "name": "100% Organic", 
+      "emoji": "🌿", 
+      "note": "Grown without synthetic pesticides." 
+      }
+    ]
+  },
+  {
+    "id": "2",
+   
+    "type": "nutritional",
+    "items": [
+      { 
+      "name": "Non-GMO ", 
+      "emoji": "🚫", 
+      "note": "Not genetically modified organisms."
+      }
+    ]
+  },
+  {
+    "id": "3",
+ 
+    "type": "nutritional",
+    "items": [
+      { 
+       "name": "Drought-Resistant", 
+      "emoji": "💧", 
+      "note": "Ideal for drier climates and less watering." 
+      }
+    ]
+  },
+  {
+    "id": "4",
+
+    "type": "nutritional",
+    "items": [
+      { 
+      "name": "Drought-Resistant", 
+      "emoji": "💧", 
+      "note": "Ideal for drier climates and less watering."
+    }
+
+    ]
+  }
+]
