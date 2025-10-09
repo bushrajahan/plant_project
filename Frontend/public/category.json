@@ -7,7 +7,7 @@
     "imageUrl": "/1.webp", 
     "imageAlt": "A lush natural plant in a white pot",
     "bgColorClass": "bg-[#e2e7df]",
-    "linkHref": "#natural-plants"
+    "linkHref": "/plants"
   },
   {
     "id": 2,

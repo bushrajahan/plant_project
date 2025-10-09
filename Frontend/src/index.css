@@ -2,16 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 /* Global font */
 body {
- /* Applies Poppins globally */
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
   line-height: 1.5;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Optional: Keep your link and button styles */

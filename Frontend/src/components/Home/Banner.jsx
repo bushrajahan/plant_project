@@ -10,7 +10,7 @@ const Banner = () => {
         {/* Left Side */}
         <div className="flex flex-col items-start text-left space-y-6 lg:w-1/2">
           {/* Tag */}
-          <span className="px-2 py-1   font-medium font-sans">
+          <span className="px-1 py-1   font-medium font-sans">
             BEST QUALITY PLANTS
           </span>
 
@@ -20,11 +20,7 @@ const Banner = () => {
           </h1>
 
           {/* Features */}
-          <div className="flex flex-wrap gap-4 font-sans">
-            <FeatureBox icon="🏷️" text="Special Price" />
-            <FeatureBox icon="🚚" text="Free Delivery" />
-            <FeatureBox icon="✅" text="Guarantee" />
-          </div>
+         
 
           {/* Description */}
           <p className=" text-sm md:text-base max-w-md">

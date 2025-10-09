@@ -1,71 +1,75 @@
 import React from "react";
+
 const Footer = () => {
   return (
     <footer className="bg-green-800 text-white">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
+        <div className="md:flex md:justify-between md:items-start">
+          {/* Logo and Brand */}
           <div className="mb-6 md:mb-0">
-            
-            
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                <img src="\logo-black.webp" alt="" />
-              </span>
-          
+            <img
+              src="/logo-black.webp"
+              alt="Plant & Seed Logo"
+              className="w-36"
+            />
+         
           </div>
 
+          {/* Footer Links */}
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white-900 uppercase dark:text-white">
-                Resources
-              </h2>
-              <ul className="text-white-500 dark:text-white-400 font-medium">
+              <h2 className="mb-6 text-sm font-semibold uppercase">Shop</h2>
+              <ul className="text-white-300 font-medium">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
-                    Flowbite
+                  <a href="/shop" className="hover:underline">
+                    All Products
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a href="/category" className="hover:underline">
+                    Categories
                   </a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">
-                    Tailwind CSS
+                  <a href="/plants" className="hover:underline">
+                    Plants
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
-                Follow us
-              </h2>
-              <ul className="text-white-500 dark:text-white font-medium">
+              <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
+              <ul className="text-white-300 font-medium">
                 <li className="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    className="hover:underline"
-                  >
-                    Github
+                  <a href="/blog" className="hover:underline">
+                    Blog
                   </a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                    Discord
+                  <a href="/care-tips" className="hover:underline">
+                    Plant Care Tips
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white-900 uppercase dark:text-white">
-                Legal
-              </h2>
-              <ul className="text-white-500 dark:text-white-400 font-medium">
+              <h2 className="mb-6 text-sm font-semibold uppercase">Connect</h2>
+              <ul className="text-white-300 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Privacy Policy
+                  <a href="https://www.facebook.com" className="hover:underline">
+                    Facebook
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a href="https://www.instagram.com" className="hover:underline">
+                    Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
+                  <a href="https://www.twitter.com" className="hover:underline">
+                    Twitter
                   </a>
                 </li>
               </ul>
@@ -75,110 +79,59 @@ const Footer = () => {
 
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
+        {/* Bottom Section */}
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-white-500 sm:text-center dark:text-white-400">
-            © 2023{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
+          <span className="text-sm text-white-300 sm:text-center">
+            © 2025{" "}
+            <a href="/" className="hover:underline">
+              Plant & Seed Co.
             </a>
             . All Rights Reserved.
           </span>
 
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 sm:justify-center sm:mt-0 space-x-4">
             <a
-              href="#"
-              className="text-white-500 hover:text-white-900 dark:hover:text-white"
+              href="https://www.facebook.com"
+              className="hover:text-gray-200"
+              aria-label="Facebook"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
                 fill="currentColor"
-                viewBox="0 0 8 19"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                  clipRule="evenodd"
-                />
+                <path d="M22 12.07c0-5.51-4.49-10-10-10S2 6.56 2 12.07c0 4.99 3.66 9.12 8.44 9.88v-6.99H7.9v-2.89h2.54V9.77c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.89h-2.34v6.99C18.34 21.19 22 17.06 22 12.07z"/>
               </svg>
-              <span className="sr-only">Facebook page</span>
             </a>
 
             <a
-              href="#"
-              className="text-white-500 hover:text-white-900 dark:hover:text-white ms-5"
+              href="https://www.instagram.com"
+              className="hover:text-gray-200"
+              aria-label="Instagram"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
                 fill="currentColor"
-                viewBox="0 0 21 16"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                <path d="M12 2.16c3.2 0 3.584.012 4.85.07 1.17.054 1.96.24 2.42.402a4.92 4.92 0 0 1 1.71 1.01 4.92 4.92 0 0 1 1.01 1.71c.163.46.348 1.25.402 2.42.058 1.27.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24 1.96-.402 2.42a4.92 4.92 0 0 1-1.01 1.71 4.92 4.92 0 0 1-1.71 1.01c-.46.163-1.25.348-2.42.402-1.27.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.96-.24-2.42-.402a4.92 4.92 0 0 1-1.71-1.01 4.92 4.92 0 0 1-1.01-1.71c-.163-.46-.348-1.25-.402-2.42C2.172 15.584 2.16 15.2 2.16 12s.012-3.584.07-4.85c.054-1.17.24-1.96.402-2.42a4.92 4.92 0 0 1 1.01-1.71 4.92 4.92 0 0 1 1.71-1.01c.46-.163 1.25-.348 2.42-.402C8.416 2.172 8.8 2.16 12 2.16zm0-2.16C8.735 0 8.332.012 7.052.07 5.78.127 4.838.31 4.067.57a7.092 7.092 0 0 0-2.55 1.68A7.092 7.092 0 0 0 .57 4.067C.31 4.838.127 5.78.07 7.052.012 8.332 0 8.735 0 12c0 3.265.012 3.668.07 4.948.057 1.272.24 2.214.5 2.985a7.092 7.092 0 0 0 1.68 2.55 7.092 7.092 0 0 0 2.55 1.68c.771.26 1.713.443 2.985.5C8.332 23.988 8.735 24 12 24s3.668-.012 4.948-.07c1.272-.057 2.214-.24 2.985-.5a7.092 7.092 0 0 0 2.55-1.68 7.092 7.092 0 0 0 1.68-2.55c.26-.771.443-1.713.5-2.985.058-1.28.07-1.683.07-4.948s-.012-3.668-.07-4.948c-.057-1.272-.24-2.214-.5-2.985a7.092 7.092 0 0 0-1.68-2.55 7.092 7.092 0 0 0-2.55-1.68c-.771-.26-1.713-.443-2.985-.5C15.668.012 15.265 0 12 0z"/>
               </svg>
-              <span className="sr-only">Discord community</span>
             </a>
 
             <a
-              href="#"
-              className="text-white-500 hover:text-white-900 dark:hover:text-white ms-5"
+              href="https://www.twitter.com"
+              className="hover:text-gray-200"
+              aria-label="Twitter"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
                 fill="currentColor"
-                viewBox="0 0 20 17"
+                viewBox="0 0 24 24"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-                  clipRule="evenodd"
-                />
+                <path d="M24 4.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337 3.1a9.864 9.864 0 0 1-3.127 1.195 4.918 4.918 0 0 0-8.38 4.482A13.957 13.957 0 0 1 1.671 3.15 4.918 4.918 0 0 0 3.195 9.722 4.902 4.902 0 0 1 .964 9.1v.062a4.918 4.918 0 0 0 3.946 4.816 4.902 4.902 0 0 1-2.212.084 4.918 4.918 0 0 0 4.588 3.414A9.867 9.867 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.057 0 14.009-7.513 14.009-14.03 0-.213-.005-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z"/>
               </svg>
-              <span className="sr-only">Twitter page</span>
-            </a>
-
-            <a
-              href="#"
-              className="text-white-500 hover:text-white-900 dark:hover:text-white ms-5"
-            >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span className="sr-only">GitHub account</span>
-            </a>
-
-            <a
-              href="#"
-              className="text-white-500 hover:text-white-900 dark:hover:text-white ms-5"
-            >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span className="sr-only">Dribbble account</span>
             </a>
           </div>
         </div>

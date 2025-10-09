@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ProductCard from "../Reusable/ProductCard";
+
 import Carousel from "../Reusable/Carasoul";
+import Card from "../Card/Card";
 const TodayDeal = () => {
   const [products, setProducts] = useState([]);
 
@@ -16,7 +17,7 @@ const TodayDeal = () => {
     <Carousel
       title="🌿 Today Deals"
       items={products}
-      renderItem={(product) => <ProductCard product={product} />}
+      renderItem={(product) => <Card item={product} />}
     />
   );
 };

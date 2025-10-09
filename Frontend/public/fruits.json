@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Rambutan",
+    "price": "1,500৳",
+    "imageUrl": "/images/rambutan.jpg",
+    "category": "Fruit Trees"
+  },
+  {
+    "id": 2,
+    "name": "Avocado",
+    "price": "1,400৳",
+    "imageUrl": "/images/avocado.jpg",
+    "category": "Fruit Trees"
+  },
+  {
+    "id": 3,
+    "name": "Rose",
+    "price": "400৳",
+    "imageUrl": "/images/rose.jpg",
+    "category": "Flower Trees"
+  },
+  {
+    "id": 4,
+    "name": "Tulip",
+    "price": "350৳",
+    "imageUrl": "/images/tulip.jpg",
+    "category": "Flower Trees"
+  },
+  {
+    "id": 5,
+    "name": "Basil",
+    "price": "250৳",
+    "imageUrl": "/images/basil.jpg",
+    "category": "Medicinal Plants"
+  }
+]

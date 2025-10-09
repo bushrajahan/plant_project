@@ -1,14 +1,38 @@
 [
-  { "id": 1, "name": "Snake Plant", "price": 195, "image": "/1.webp", "isSale": true, "rating": 4 },
-  { "id": 2, "name": "Peace Lily Plant", "price": 180, "image": "/5.webp", "isSale": false, "rating": 5 },
-  { "id": 3, "name": "Plastic Pot", "price": 25, "image": "/8.webp", "isSale": true, "rating": 3 },
-  { "id": 4, "name": "Aglonema Plant", "price": 210, "image": "/9.webp", "isSale": false, "rating": 4 },
-  { "id": 5, "name": "Snake Plant", "price": 195, "image": "/1.webp", "isSale": true, "rating": 4 },
-  { "id": 6, "name": "Peace Lily Plant", "price": 180, "image": "/5.webp", "isSale": false, "rating": 5 },
-  { "id": 7, "name": "Plastic Pot", "price": 25, "image": "/8.webp", "isSale": true, "rating": 3 },
-  { "id": 8, "name": "Aglonema Plant", "price": 210, "image": "/9.webp", "isSale": false, "rating": 4 },
-  { "id": 9, "name": "Snake Plant", "price": 195, "image": "/1.webp", "isSale": true, "rating": 4 },
-  { "id": 10, "name": "Peace Lily Plant", "price": 180, "image": "/5.webp", "isSale": false, "rating": 5 },
-  { "id": 11, "name": "Plastic Pot", "price": 25, "image": "/8.webp", "isSale": true, "rating": 3 },
-  { "id": 12, "name": "Aglonema Plant", "price": 210, "image": "/9.webp", "isSale": false, "rating": 4 }
+  {
+    "id": 1,
+    "name": "Rambutan",
+    "price": "1,500৳",
+    "imageUrl": "/1.webp",
+    "category": "Fruit Trees"
+  },
+  {
+    "id": 2,
+    "name": "Avocado",
+    "price": "1,400৳",
+    "imageUrl": "/5.webp",
+    "category": "Fruit Trees"
+  },
+  {
+    "id": 3,
+    "name": "Rose",
+    "price": "400৳",
+    "imageUrl": "/6.webp",
+    "category": "Flower Trees"
+  },
+  {
+    "id": 4,
+    "name": "Tulip",
+    "price": "350৳",
+    "imageUrl": "/1.webp",
+    "category": "Flower Trees"
+  },
+  {
+    "id": 5,
+    "name": "Basil",
+    "price": "250৳",
+    "imageUrl": "/9.webp",
+    "category": "Medicinal Plants"
+  }
+  
 ]
