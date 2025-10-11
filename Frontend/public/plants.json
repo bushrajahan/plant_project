@@ -3,35 +3,64 @@
     "id": 1,
     "name": "Rambutan",
     "price": "1,500৳",
-    "imageUrl": "/Frontend/public/1.webp",
-    "category": "Fruit Trees"
+    "imageUrl": "/1.webp",
+    "category": "Fruit Trees",
+    "description": "A tropical fruit tree with sweet, juicy red fruits covered in soft spines."
   },
   {
     "id": 2,
     "name": "Avocado",
     "price": "1,400৳",
-    "imageUrl": "/Frontend/public/5.webp",
-    "category": "Fruit Trees"
+    "imageUrl": "/2.webp",
+    "category": "Fruit Trees",
+    "description": "A popular fruit tree producing creamy, nutrient-rich avocados."
   },
   {
     "id": 3,
     "name": "Rose",
     "price": "400৳",
-    "imageUrl": "/Frontend/public/6.webp",
-    "category": "Flower Trees"
+    "imageUrl": "/3.webp",
+    "category": "Flower Trees",
+    "description": "Classic flowering plant known for its beauty and fragrance."
   },
   {
     "id": 4,
     "name": "Tulip",
     "price": "350৳",
-    "imageUrl": "/Frontend/public/1.webp",
-    "category": "Flower Trees"
+    "imageUrl": "/4.webp",
+    "category": "Flower Trees",
+    "description": "Elegant flowering plant with vibrant cup-shaped blooms."
   },
   {
     "id": 5,
     "name": "Basil",
     "price": "250৳",
-    "imageUrl": "/Frontend/public/9.webp",
-    "category": "Medicinal Plants"
+    "imageUrl": "/5.webp",
+    "category": "Medicinal Plants",
+    "description": "An aromatic herb used in cooking and traditional medicine."
+  },
+  {
+    "id": 6,
+    "name": "Neem",
+    "price": "300৳",
+    "imageUrl": "/6.webp",
+    "category": "Medicinal Plants",
+    "description": "A powerful medicinal tree known for antibacterial and antifungal properties."
+  },
+  {
+    "id": 7,
+    "name": "Money Plant",
+    "price": "200৳",
+    "imageUrl": "/7.webp",
+    "category": "Indoor Plants",
+    "description": "A lucky indoor plant that purifies air and enhances room aesthetics."
+  },
+  {
+    "id": 8,
+    "name": "Snake Plant",
+    "price": "280৳",
+    "imageUrl": "/8.webp",
+    "category": "Indoor Plants",
+    "description": "Low-maintenance plant that improves indoor air quality."
   }
 ]

@@ -1,44 +1,43 @@
 import React, { useEffect, useState } from 'react';
-import Title from '../Reusable/Title';
+import Title from '../../Reusable/Title';
+import Card from '../../Card/Card';
 
-import Card from '../Card/Card';
-
-const PlantComponet = () => {
-  const [plants, setPlants] = useState([]);
-  const [filteredPlants, setFilteredPlants] = useState([]);
+const ShopGifts = () => {
+  const [gifts, setGifts] = useState([]);
+  const [filteredGifts, setFilteredGifts] = useState([]);
   const [activeFilter, setActiveFilter] = useState('All');
 
-  // Fetch plant data
+  // Fetch gift data
   useEffect(() => {
-    fetch('/plants.json')
+    fetch('/gift.json') // ✅ Must be inside public folder
       .then((res) => res.json())
       .then((data) => {
-        setPlants(data);
-        setFilteredPlants(data); // show all by default
+        setGifts(data);
+        setFilteredGifts(data); // show all by default
       })
-      .catch((err) => console.error('Error fetching data', err));
+      .catch((err) => console.error('Error fetching gifts data', err));
   }, []);
 
   // Filter handler
   const handleFilter = (type) => {
     setActiveFilter(type);
     if (type === 'All') {
-      setFilteredPlants(plants);
+      setFilteredGifts(gifts);
     } else {
-      const filtered = plants.filter((plant) => plant.category === type);
-      setFilteredPlants(filtered);
+      const filtered = gifts.filter((gift) => gift.category === type);
+      setFilteredGifts(filtered);
     }
   };
 
-  // Example types for buttons
-  const types = ['All', 'Fruit Trees', 'Flower Trees', 'Medicinal Plants', 'Indoor Plants'];
+  // Example categories for gift filter
+  const types = ['All', 'Shop Gifts'];
 
   return (
-    <div className="p-8 bg-green-100 m-10">
-      <Title text="🌿 Nature’s Touch: Boost Your Well-Being" />
+    <div className="p-8 bg-green-100 m-10 rounded-2xl shadow-md">
+      <Title text="🎁 Heartfelt Gifts: Bring Joy to Every Occasion" />
 
       {/* Filter Buttons */}
-      <div className="flex flex-wrap gap-4 mb-8">
+      <div className="flex flex-wrap gap-4 mb-8 justify-center">
         {types.map((type) => (
           <button
             key={type}
@@ -54,14 +53,14 @@ const PlantComponet = () => {
         ))}
       </div>
 
-      {/* Plant Cards */}
+      {/* Gift Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {filteredPlants.map((plant) => (
-          <Card key={plant.id} item={plant}></Card>
+        {filteredGifts.map((gift) => (
+          <Card key={gift.id} item={gift} />
         ))}
       </div>
     </div>
   );
 };
 
-export default PlantComponet;
+export default ShopGifts;

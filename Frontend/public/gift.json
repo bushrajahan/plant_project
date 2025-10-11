@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Mini Succulent Gift Box",
+    "price": "850৳",
+    "imageUrl": "/gift1.webp",
+    "category": "Shop Gifts",
+    "description": "A charming gift box featuring mini succulents with decorative pebbles — perfect for any occasion."
+  },
+  {
+    "id": 2,
+    "name": "Terrarium Globe",
+    "price": "1,200৳",
+    "imageUrl": "/gift2.webp",
+    "category": "Shop Gifts",
+    "description": "A beautiful glass terrarium globe filled with greenery and moss — an elegant table decor piece."
+  },
+  {
+    "id": 3,
+    "name": "Blooming Gift Basket",
+    "price": "1,500৳",
+    "imageUrl": "/gift3.webp",
+    "category": "Shop Gifts",
+    "description": "A woven basket filled with seasonal flowers and a personalized greeting card."
+  },
+  {
+    "id": 4,
+    "name": "Aromatic Herb Set",
+    "price": "1,000৳",
+    "imageUrl": "/gift4.webp",
+    "category": "Shop Gifts",
+    "description": "Includes small pots of basil, mint, and rosemary — perfect for gifting garden lovers."
+  },
+  {
+    "id": 5,
+    "name": "Plant Lover’s Mug",
+    "price": "550৳",
+    "imageUrl": "/gift5.webp",
+    "category": "Shop Gifts",
+    "description": "A ceramic mug with a plant-themed design, great for nature enthusiasts."
+  },
+  {
+    "id": 6,
+    "name": "Cactus in Clay Pot",
+    "price": "480৳",
+    "imageUrl": "/gift6.webp",
+    "category": "Shop Gifts",
+    "description": "A small cactus in a handcrafted clay pot — minimal and cute gift option."
+  },
+  {
+    "id": 7,
+    "name": "Eco Candle with Dried Flowers",
+    "price": "700৳",
+    "imageUrl": "/gift7.webp",
+    "category": "Shop Gifts",
+    "description": "Eco-friendly soy candle decorated with dried petals — gives a soft, floral aroma."
+  },
+  {
+    "id": 8,
+    "name": "Garden Gift Set",
+    "price": "1,300৳",
+    "imageUrl": "/gift8.webp",
+    "category": "Shop Gifts",
+    "description": "A complete garden starter set including small tools, gloves, and seed packs."
+  }
+]

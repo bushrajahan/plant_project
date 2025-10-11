@@ -3,7 +3,10 @@ import { useCart } from "../components/Cart/CartContext";
 export default function CartPages() {
   const { cart, removeFromCart, clearCart } = useCart();
 
-  const total = cart.reduce((sum, item) => sum + parseFloat(item.price.replace("৳", "")) * item.quantity, 0);
+   const total = cart.reduce((sum, item) => {
+    const numericPrice = parseFloat(item.price.replace(/[৳,]/g, "")); // remove "৳" and ","
+    return sum + numericPrice * item.quantity;
+  }, 0);
 
   return (
     <div className="max-w-4xl mx-auto p-8">

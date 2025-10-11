@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Watering Can",
+    "price": "৳550",
+    "imageUrl": "/access1.webp",
+    "category": "Accessories",
+    "description": "Durable plastic watering can for indoor and outdoor plants."
+  },
+  {
+    "id": 2,
+    "name": "Gardening Gloves",
+    "price": "৳300",
+    "imageUrl": "/access2.webp",
+    "category": "Accessories",
+    "description": "Soft cotton gloves with rubber grip to protect your hands."
+  },
+  {
+    "id": 3,
+    "name": "Plant Sprayer",
+    "price": "৳420",
+    "imageUrl": "/access3.webp",
+    "category": "Accessories",
+    "description": "Fine mist sprayer ideal for delicate leaves and seedlings."
+  },
+  {
+    "id": 4,
+    "name": "Soil Shovel Set",
+    "price": "৳650",
+    "imageUrl": "/access4.webp",
+    "category": "Accessories",
+    "description": "Stainless steel tools for easy soil digging and planting."
+  },
+  {
+    "id": 5,
+    "name": "Hanging Pot Holder",
+    "price": "৳750",
+    "imageUrl": "/access5.webp",
+    "category": "Accessories",
+    "description": "Metal pot holder to hang plants decoratively indoors or on balconies."
+  }
+]

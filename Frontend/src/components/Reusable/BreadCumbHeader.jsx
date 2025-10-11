@@ -19,7 +19,7 @@ const LeafIcon = ({ className = '' }) => (
 
 const BreadcrumbHeader = ({ title, subtitle, breadcrumbs = [] }) => {
   return (
-    <header className="relative overflow-hidden bg-emerald-50 py-16 px-6 sm:px-10 lg:px-16">
+    <header className="relative overflow-hidden bg-emerald-50 py-16 px-6 sm:px-10 lg:px-16 m-10">
       {/* Decorative leaf in background */}
       <div className="absolute right-0 bottom-0 opacity-30 text-emerald-400 w-72 h-72 sm:w-96 sm:h-96 transform translate-x-1/4 translate-y-1/4 rotate-[-20deg]">
         <LeafIcon className="stroke-2" />

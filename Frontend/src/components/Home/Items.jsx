@@ -5,7 +5,7 @@ const Items = () => {
   const [promotions, setPromotions] = useState([]);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
-  const handleItems = ()=> navigate('/plants')
+
 
   useEffect(() => {
     fetch('/category.json') // ✅ file should be inside public/
@@ -27,12 +27,12 @@ const Items = () => {
   if (promotions.length === 0) return <p>Loading categories...</p>;
 
   return (
-    <div className="container mx-auto p-4 md:p-8 m-12" >
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="container mx-auto p-4 md:p-4" >
+      <div className="grid grid-cols-1 md:grid-cols-2 ">
         {promotions.map((item) => (
           <div
             key={item.id}
-            className={`relative overflow-hidden rounded-xl shadow-xl flex items-center justify-end p-8 min-h-[300px] `}
+            className={`relative overflow-hidden rounded-xl shadow-xl flex items-center justify-end p-4  min-h-[300px] `}
           >
             <img
               src={item.imageUrl}
@@ -43,8 +43,8 @@ const Items = () => {
             <div className="relative z-10 text-right max-w-[200px]">
               <p className="text-base font-medium text-gray-700 mb-1">{item.discountText}</p>
               <h3 className="text-3xl font-bold text-gray-800 mb-4 leading-snug">{item.title}</h3>
-               <button
-                onClick={() => handleItems()} //navigate dynamically
+               <button onClick={()=>navigate(item.linkHref)}
+               //navigate dynamically
                 className="inline-block px-6 py-2.5 bg-gray-800 text-white text-sm font-medium rounded-md hover:bg-gray-900 transition-colors duration-200"
               >
                 {item.buttonText}

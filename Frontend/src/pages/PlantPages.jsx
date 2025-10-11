@@ -6,11 +6,11 @@ import PlantComponet from "../components/Categoory/plantComponent";
 
 const PlantPages = () =>{
     return (
-        <>
+        <div>
         <PlantHeader></PlantHeader>
         <PlantComponet></PlantComponet>
 
-        </>
+        </div>
         
     )
 

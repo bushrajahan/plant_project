@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import Title from '../Reusable/Title';
+import Title from '../../Reusable/Title';
+import Card from '../../Card/Card';
 
-import Card from '../Card/Card';
-
-const PlantComponet = () => {
+const AccessComponet = () => {
   const [plants, setPlants] = useState([]);
   const [filteredPlants, setFilteredPlants] = useState([]);
   const [activeFilter, setActiveFilter] = useState('All');
 
   // Fetch plant data
   useEffect(() => {
-    fetch('/plants.json')
+    fetch('/access.json')
       .then((res) => res.json())
       .then((data) => {
         setPlants(data);
@@ -31,14 +30,14 @@ const PlantComponet = () => {
   };
 
   // Example types for buttons
-  const types = ['All', 'Fruit Trees', 'Flower Trees', 'Medicinal Plants', 'Indoor Plants'];
+  const types = ['All', 'Accessories'];
 
   return (
     <div className="p-8 bg-green-100 m-10">
       <Title text="🌿 Nature’s Touch: Boost Your Well-Being" />
 
       {/* Filter Buttons */}
-      <div className="flex flex-wrap gap-4 mb-8">
+      <div className="flex justify-center items-center flex-wrap gap-4 mb-8">
         {types.map((type) => (
           <button
             key={type}
@@ -64,4 +63,4 @@ const PlantComponet = () => {
   );
 };
 
-export default PlantComponet;
+export default AccessComponet;

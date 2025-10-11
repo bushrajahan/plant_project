@@ -14,7 +14,11 @@ import Navbar from "./components/Navbar/Navbar";
 import PlantPages from "./pages/PlantPages";
 import { CartProvider } from "./components/Cart/CartContext";
 import CartPages from "./pages/CartPages";
+import GiftPages from "./pages/GiftPages";
 
+import CarePages from "./pages/CarePages";
+import AccessPages from "./pages/AccessPages";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -35,13 +39,19 @@ function App() {
          <Route path="/register" element={<Register />} />
     
         <Route path="/plants" element={<PlantPages/>}/>
+        <Route path="/gift" element={<GiftPages/>}/>
+        <Route path = '/care'  element={<CarePages/>}/>
+
         <Route path="/cart" element={<CartPages/>}/>
+        <Route path="/access" element={<AccessPages/>}/>
 
   
       </Routes>
+      <Footer/>
     </Router>
     </CartProvider>
   );
 }
+
 
 export default App;

@@ -5,13 +5,13 @@ import NewArrival from "../components/Home/NewArrival";
 import BestSeller from "../components/Home/BestSeller";
 import TodayDeal from "../components/Home/TodyaDeal";
 import BestQuality from "../components/Home/BestQuality";
-import Footer from "../components/Footer/Footer";
+
 import Seed from "../components/Home/Seed";
 import Quality from "../components/Home/Quality";
 
 function Home() {
   return (
-    <div >
+    <div className="m-12" >
       <Banner></Banner>
       <Seed></Seed>
      
@@ -21,7 +21,8 @@ function Home() {
        <Quality></Quality>
       <BestQuality></BestQuality>'
       
-      <Footer></Footer>
+     
+
   
     </div>
   );

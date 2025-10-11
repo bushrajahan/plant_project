@@ -104,7 +104,7 @@ export default function ContactForm({
             <div className="flex items-center gap-3">
               <button
                 type="submit"
-                className="inline-flex items-center justify-center rounded-lg px-4 py-2 bg-indigo-600 text-white font-medium shadow hover:bg-indigo-700 focus:outline-none"
+                className="inline-flex items-center justify-center rounded-lg px-4 py-2 bg-green-800 text-white font-medium shadow hover:bg-indigo-700 focus:outline-none"
               >
                 {status === "sending" ? "Sending..." : "Send Message"}
               </button>

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Compost Mix",
+    "price": "650৳",
+    "imageUrl": "/care1.webp",
+    "category": "Garden Care",
+    "description": "A rich organic compost that improves soil fertility and promotes healthy plant growth."
+  },
+  {
+    "id": 2,
+    "name": "All-Purpose Fertilizer",
+    "price": "500৳",
+    "imageUrl": "/care2.webp",
+    "category": "Garden Care",
+    "description": "Balanced fertilizer suitable for all types of plants to ensure strong roots and lush foliage."
+  },
+  {
+    "id": 3,
+    "name": "Watering Can (Metal)",
+    "price": "800৳",
+    "imageUrl": "/care3.webp",
+    "category": "Garden Care",
+    "description": "A stylish metal watering can with a long spout for easy and even watering."
+  },
+  {
+    "id": 4,
+    "name": "Gardening Tool Set",
+    "price": "1,200৳",
+    "imageUrl": "/care4.webp",
+    "category": "Garden Care",
+    "description": "A complete gardening toolkit with trowel, rake, pruner, gloves, and a carrying case."
+  },
+  {
+    "id": 5,
+    "name": "Plant Spray Bottle",
+    "price": "250৳",
+    "imageUrl": "/care5.webp",
+    "category": "Garden Care",
+    "description": "Durable spray bottle for misting indoor and outdoor plants to keep them hydrated and fresh."
+  },
+  {
+    "id": 6,
+    "name": "Neem Oil Pest Control",
+    "price": "400৳",
+    "imageUrl": "/care6.webp",
+    "category": "Garden Care",
+    "description": "Natural pest repellent derived from neem seeds, safe for all plant types."
+  },
+  {
+    "id": 7,
+    "name": "Soil pH Tester",
+    "price": "950৳",
+    "imageUrl": "/care7.webp",
+    "category": "Garden Care",
+    "description": "Digital soil pH meter to ensure your plants are growing in the ideal soil conditions."
+  },
+  {
+    "id": 8,
+    "name": "Pruning Shears",
+    "price": "700৳",
+    "imageUrl": "/care8.webp",
+    "category": "Garden Care",
+    "description": "Ergonomic pruning scissors for trimming branches and promoting healthy plant growth."
+  }
+]
